@@ -1,8 +1,8 @@
 name: workflow2  
 env:
     A: 3
-  on: 
-  workflow_dispatch:
+    B: 2
+  on: workflow_dispatch
 jobs:
   job1:
     runs-on : ubuntu-latest
