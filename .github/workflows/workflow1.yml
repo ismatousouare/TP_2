@@ -1,8 +1,7 @@
 name: workflow1
 env: 
     VAR1: 10  
-on :
-[push]
+on : [push]
 jobs:
   job1:
     runs-on : ubuntu-latest
