@@ -1,7 +1,6 @@
 name: workflow2  
 env:
     A: 3
-    B: 2   
   on: 
   workflow_dispatch:
 jobs:
